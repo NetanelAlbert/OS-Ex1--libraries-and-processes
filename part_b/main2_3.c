@@ -13,8 +13,7 @@ int main(){
         return 1;
     if(pid > 0){
         printf("Demon pid: %d\n", pid);
-        //return 0;
-    } else { // in demon process
+    } else {            // in demon process
         chdir("/");
         setsid();
         printf("Demon closing std io channels\n");
@@ -24,7 +23,6 @@ int main(){
 
     }
     sleep(5); // for me to have enough time to use pstree
-    //printf("end %d\n", pid);
     return 0;
 }
 
