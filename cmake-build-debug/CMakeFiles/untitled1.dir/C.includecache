@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nati/CLionProjects/OS-Ex1--libraries-and-processes/main2_4b.c
+sched.h
+-
+stdio.h
+-
+unistd.h
+-
+

@@ -17,6 +17,7 @@ int run2_1(void *params){
     char * args[2] = {"./1_1.exe",NULL};
     execvp(args[0],args);
     sleep(5); // for me to have enough time to use pstree
+
 }
 int run2_2(void *params){
     printf("- - - subtask 2 - - -\n");

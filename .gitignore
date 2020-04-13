@@ -38,3 +38,5 @@ solution*
 *.app
 demo
 test
+
+CMakeLists.txt
